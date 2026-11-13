@@ -1,0 +1,836 @@
+[
+ {
+  "id": "B1",
+  "exam": "May 2024",
+  "course": "BCSE306L – Artificial Intelligence",
+  "slot": "B1+TB1",
+  "note": "Answer any TEN questions (10 × 10 = 100 marks)",
+  "questions": [
+   {
+    "number": 1,
+    "parts": [
+     {
+      "label": "a",
+      "text": "The Robird is a drone developed by Clear Flight Solutions, that is good for controlling other birds. The Robird looks and flies exactly like a real raptor would, which makes the natural birds react like they would in the presence of a real predator. The Robird is used to clear runways so flights can take off safely, and to keep birds away from industrial or agricultural areas. There are two Robirds built, one looks like a Peregrine Falcon, and the other looks like an Eagle. The Eagle is an alpha predator, while the Peregrine Falcon is the most common predator across the world. Clear Flight Solutions chooses which Robird to use depending on the local bird population. The good thing about using the Robird is that the bird populations quickly learn that a predator is in the area, and stay away. Give the PEAS for the Robird robot.",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "6"
+     },
+     {
+      "label": "b",
+      "text": "Explain the architecture of goal based agents with suitable diagram.",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "4",
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "parts": [
+     {
+      "label": "",
+      "text": "Four soldiers need to cross a river. One of them is arrogant (A), one is lazy (L) and two are brave (B1 & B2). Rules: the raft can hold a maximum of two soldiers at a time; the lazy soldier will not be alone either on the raft or on the banks; the arrogant one will not travel on the raft with anyone else; everyone can row and the raft cannot row itself. Model the problem with each state represented in the following order: (A, L, B1, B2). Represent it with bits 0/1 to indicate the bank in which the soldier is. 1 represents that the soldier is in Left bank, 0 represents the soldier is in the right bank. Shade the restricted states. Initial state: 1111; Final state is: 0000. Draw the search space and search for the solution using DFS. List the order of traversal.",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "10"
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "parts": [
+     {
+      "label": "",
+      "text": "Perform GBFS on the given graph. Prove that A* search algorithm returns the optimal solution on the graph below to find the shortest path from node S to node G. Each node is labelled with a capital letter and the value of a heuristic function. Each edge is labelled by the cost to traverse that edge. Analyse the path cost obtained by both the algorithms. (Graph figure: see the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "10"
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "parts": [
+     {
+      "label": "",
+      "text": "Find the minimax values of the nodes using Mini-Max Algorithm. Prune the nodes that do not affect the game’s outcome using α-β pruning algorithm. (Game tree figure: see the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "10"
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "parts": [
+     {
+      "label": "",
+      "text": "Convert the given knowledge base to FOL. Prove that “Percy Jackson defeats the minotaur” entails from the given knowledge base using resolution. Knowledge Base: Percy Jackson is a demigod. One becomes a demigod when one’s parent is a God. Percy Jackson’s parent is the powerful God Poseidon. The children of powerful Gods are powerful. Powerful monsters are imprisoned. The powerful monster Minotaur is imprisoned. Powerful monsters can only be defeated by powerful demigods.",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "10"
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "parts": [
+     {
+      "label": "a",
+      "text": "In VIT there are two faculty members who teach AI. One faculty member has a pass percentage of 50% and the other faculty member’s pass percentage is 90%. You would want to join the class of the faculty member who has the higher pass percentage. But you do not know who that is. So, you assume that they are equally likely to be lenient and join the class of one faculty member. Given that you failed, what is the probability that the faculty member whom you chose was faculty with the high pass percentage?",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "5"
+     },
+     {
+      "label": "b",
+      "text": "For two events A and B, the following probabilities are given: P(A)=0.6, P(B)=0.2, P(A|B)=0.5. Use the appropriate laws of probability to calculate: I. P(Ā) [1]  II. P(A∪B) [1]  III. P(A∩B) [1]  IV. P(B|A) [2]",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "5",
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 7,
+    "parts": [
+     {
+      "label": "",
+      "text": "Consider the following Bayesian Network containing four Boolean random variables. A and B are parents of D; A is also the parent of C. P(A)=0.1, P(B)=0.5; P(C|A)=0.7, P(C|¬A)=0.2; P(D|A,B)=0.9, P(D|¬A,B)=0.6, P(D|A,¬B)=0.7, P(D|¬A,¬B)=0.3.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     },
+     {
+      "label": "a",
+      "text": "Compute P(¬A, B, ¬C, D)",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "5",
+      "and": true
+     },
+     {
+      "label": "b",
+      "text": "Compute P(A | B, C, D)",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "5",
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 8,
+    "parts": [
+     {
+      "label": "",
+      "text": "An agent in Vellore, India wants to spend his vacation in Paris, France. Plan his trip using hierarchical task network planning. Write the actions with its corresponding preconditions and effects in STRIPS.",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "10"
+     }
+    ]
+   },
+   {
+    "number": 9,
+    "parts": [
+     {
+      "label": "A",
+      "text": "Give generic representations of actions along with the preconditions and effects in STRIPS that can be used in the blocks world problem. Write a suitable plan of actions to reach the goal state from the start state. (Start: B on table, C on A, A on table. Goal: A on B on C. See figure in the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "6"
+     },
+     {
+      "label": "B",
+      "text": "Write a short note on planning in nondeterministic domain.",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "4",
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 10,
+    "parts": [
+     {
+      "label": "",
+      "text": "Develop an NLP model to create a calendar entry from email received. Explain the approach that you would select to perform the task with suitable example.",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "10"
+     }
+    ]
+   },
+   {
+    "number": 11,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Using the laws of inference prove that “T->W” entails from the given KB. KB: ¬P -> R ^ ¬S;  T -> S;  U -> ¬P;  ¬W;  U v W",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "6"
+     },
+     {
+      "label": "b",
+      "text": "Prove (P^Q)→(P V R) is a tautology using Truth Table.",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "4",
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 12,
+    "parts": [
+     {
+      "label": "",
+      "text": "Explain Hill Climbing Search Algorithm. What are the advantages and disadvantages of the algorithm? What is the strategy used in Simulated Annealing that helps it to escape Local Minima?",
+      "co": "",
+      "bl": "",
+      "modules": [],
+      "marks": "10"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "D1",
+  "exam": "November 2025",
+  "course": "BCSE306L – Artificial Intelligence",
+  "slot": "D1+TD1",
+  "note": "Answer ALL questions (10 × 10 = 100 marks)",
+  "questions": [
+   {
+    "number": 1,
+    "parts": [
+     {
+      "label": "",
+      "text": "Consider an AI-powered healthcare assistant to help doctors and nurses in an hospital. The assistant should be able to: monitor patients’ vital signs using sensors; analyze medical records and suggest possible diagnoses; communicate with patients in natural language; coordinate with other hospital systems (e.g., pharmacy, scheduling). For the given scenario explain briefly the subfields of AI which could be integrated to create the healthcare assistant. Describe the PEAS and the various environment properties in which the bot operates.",
+      "co": "CO1",
+      "bl": "BL4",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "parts": [
+     {
+      "label": "",
+      "text": "Apply the following uninformed search algorithms on the given graph with Start node: A and Goal node: J. List the order of traversal and compare its path cost. Depth First Search, Iterative Deepening Depth First Search and Uniform Cost Search. (Graph figure: see the original paper.)",
+      "co": "CO2",
+      "bl": "BL2",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "parts": [
+     {
+      "label": "",
+      "text": "Apply Greedy Best First Search and A* search algorithm on the following graph with Start node: A and Goal node: Z. Compare the performance of the algorithms. Heuristic h(n): A=21, B=14, C=18, D=18, E=5, F=8. (Graph figure: see the original paper.)",
+      "co": "CO4",
+      "bl": "BL2",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "parts": [
+     {
+      "label": "",
+      "text": "Apply Min-max algorithm to compute the value propagated to the root node and Alpha–Beta Pruning to the same tree (left-to-right expansion) to indicate which branches are pruned. (Game tree figure: see the original paper.)",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Prove that the following premises build up a valid argument using the rule of inference. “If today is Monday, I have an exam in Artificial Intelligence or Calculus. If my Artificial Intelligence Professor is absent, then I will not have a test in Artificial Intelligence. Today is Monday and my Artificial Intelligence Professor is absent. Therefore I have a test in Calculus.”",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "From the given knowledge base prove “Curiosity killed the cat” using Forward chaining technique. Jack owns a dog. Every dog owner is an animal lover. No animal lover kills an animal. Either Jack or Curiosity killed the cat, who is named Tuna.",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": [],
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "parts": [
+     {
+      "label": "",
+      "text": "Consider the following predicates and solve using resolution. Predicates: Reads(x, b): person x reads book b; Wrote(a, b): author a wrote book b; Admires(x, y): x admires y; Author(a), Person(p), InfluencedBy(x, y). Knowledge base (English → FOL): 1. Anyone who reads a book written by someone admires that writer. 2. All authors are persons. 3. Anyone who admires a person is influenced by that person. 4. Alice is an author. 5. Alice wrote Book1. 6. John reads Book1. Goal: Using resolution prove that InfluencedBy(John, Alice).",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 7,
+    "parts": [
+     {
+      "label": "a",
+      "text": "What is meant by uncertainty in decision-making? Why is Bayes’ Theorem essential for handling uncertainty, and how does it help in reasoning under incomplete or probabilistic information? Illustrate with an example.",
+      "co": "CO3",
+      "bl": "BL3",
+      "modules": [],
+      "marks": "5"
+     },
+     {
+      "label": "b",
+      "text": "A company recruits from three colleges C1, C2, C3 with proportions: P(C1)=0.50, P(C2)=0.30, P(C3)=0.20. Let T be the event “applicant passes the skills test”. Conditional pass rates: P(T|C1)=0.90, P(T|C2)=0.70, P(T|C3)=0.40. (i) Using the law of total probability, find P(T). (ii) Using Bayes’ Theorem, find P(C2 | T).",
+      "co": "CO3",
+      "bl": "BL3",
+      "modules": [],
+      "marks": "5",
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 8,
+    "parts": [
+     {
+      "label": "",
+      "text": "Using the dataset given, classify the following input into accept/reject using Bayes’ classifier. X=(age <40, cibil = normal, Employed=yes). Dataset (Age, Cibil, Employed, Loan): 1 <40 Good Yes accept; 2 >40 Good Yes reject; 3 =40 Normal yes reject; 4 <40 Bad yes reject; 5 <40 Normal No accept; 6 >40 Good No reject; 7 >40 Bad No reject; 8 =40 Normal Yes reject; 9 <40 Bad Yes reject; 10 <40 Bad No accept; 11 =40 Good No accept; 12 >40 good Yes reject.",
+      "co": "CO3",
+      "bl": "BL3",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 9,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Give the STRIPS representation for Blocks world problem: Initial state: B is on A, A is on the table, D is on C, C is on table. Goal: C is on A, A is on B. Give a partial order plan for the above problem.",
+      "co": "CO5",
+      "bl": "BL2",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "With suitable STRIPS representation for states and actions, give a hierarchical task consistent plan for an agent who is planning a vacation in London.",
+      "co": "CO5",
+      "bl": "BL2",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 10,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Explain the steps in information retrieval. Explain the rank evaluation method used for web based retrieval using suitable examples.",
+      "co": "CO6",
+      "bl": "BL3",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "Explain in detail any one object recognition methods which you are familiar with suitable diagrams and examples.",
+      "co": "CO6",
+      "bl": "BL3",
+      "modules": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "D2",
+  "exam": "November 2025",
+  "course": "BCSE306L – Artificial Intelligence",
+  "slot": "D2+TD2",
+  "note": "Answer ALL questions (10 × 10 = 100 marks)",
+  "questions": [
+   {
+    "number": 1,
+    "parts": [
+     {
+      "label": "",
+      "text": "Consider an intelligent virtual assistant designed to operate within a military environment. Develop the PEAS (Performance Measure, Environment, Actuators, Sensors) description for this agent. Additionally, describe the corresponding task environment and analyze its key characteristics.",
+      "co": "CO1",
+      "bl": "BL5",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Given the following graph with edge costs, illustrate the step-by-step execution of the Uniform-Cost Search (UCS) algorithm to find the optimal path from the start node S to the goal node G. Clearly show the contents of the frontier at each iteration and the total cost of the path found. Edges: S to A (cost 4), S to B (cost 1); A to C (cost 3), A to D (cost 8); B to A (cost 2), B to E (cost 10); C to G (cost 4); D to G (cost 2); E to G (cost 5).",
+      "co": "CO2",
+      "bl": "BL3",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "Analyse the uninformed search algorithms regarding completeness, optimality, time complexity, and space complexity.",
+      "co": "CO2",
+      "bl": "BL3",
+      "modules": [],
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "parts": [
+     {
+      "label": "",
+      "text": "Using the given graph, apply the Greedy Best-First Search and A* search algorithms to determine the optimal path from node A to node H. Show all steps involved in the search process and compare the results obtained by both techniques. Heuristics: A=5, B=3, C=4, D=2, E=6, F=3, G=1, H=0. (Graph figure: see the original paper.)",
+      "co": "CO2",
+      "bl": "BL4",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "parts": [
+     {
+      "label": "",
+      "text": "Apply minimax algorithm to the given tree. Prune the nodes using alpha-beta pruning algorithm that do not affect the outcome of the game. (Game tree figure: see the original paper.)",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "parts": [
+     {
+      "label": "",
+      "text": "Explain the fundamental mechanics of a Genetic Algorithm (GA). Detail the role and implementation of the four key processes: Initial Population Generation, Fitness Function, Selection, Crossover, and Mutation. Give an example of a problem where a GA would outperform both Hill Climbing and Simulated Annealing.",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Formalize the following natural language statements into First-Order Logic (FOL). i. All dogs are friendly, unless they live near a mountain. ii. Only one CEO reports directly to the Board of Directors. iii. Every person who owns a dog is a friend of someone who owns a cat. iv. Mary is a student.",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": [],
+      "marks": "4"
+     },
+     {
+      "label": "b",
+      "text": "The following statements describe the relationship between weather and the picnic: If it is raining, then the ground will be wet. If the ground is wet, then the picnic will be cancelled. If it is sunny, then it cannot be raining. It is either raining or sunny. Using the above information, prove by the resolution method with contradiction that the picnic will be cancelled.",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": [],
+      "marks": "6",
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 7,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Given the following rules and facts: i. Bird(x) ∧ Flies(x) → Happy(x)  ii. Sparrow(Tweety) → Bird(Tweety)  iii. Sparrow(Tweety)  iv. Flies(Tweety). Use forward chaining and backward chaining to determine whether Happy(Tweety) can be inferred.",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "Given: Whoever can read is literate. Dolphins are not literate. Some dolphins are intelligent. Prove by unification: Some who are intelligent cannot read.",
+      "co": "CO4",
+      "bl": "BL3",
+      "modules": [],
+      "and": true
+     }
+    ]
+   },
+   {
+    "number": 8,
+    "parts": [
+     {
+      "label": "",
+      "text": "Consider the following medical diagnosis scenario: P(M) = 0.005 (probability of having a rare Migraine); P(H) = 0.995 (probability of having a Headache); P(S | M) = 0.98 (probability of seeing a Scintillation Scotoma given Migraine); P(S | ¬M ∧ H) = 0.05 (probability of seeing Scintillation Scotoma given no Migraine but a regular Headache); P(S | ¬M ∧ ¬H) = 0.01 (probability of seeing Scintillation Scotoma given no Migraine and no Headache). Calculate P(M | S) (the probability of having a Migraine given that a Scintillation Scotoma is observed). Clearly state the assumptions and show the application of Bayes’ Rule and the Law of Total Probability.",
+      "co": "CO3",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 9,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Design a planning system for an intelligent agent that utilizes both forward search and backward search strategies to achieve specified goals within a dynamic environment. Explain how your system integrates these methods with reference to classical planning paradigms, and analyze the potential advantages your hybrid approach has over conventional single-mode planning techniques in terms of efficiency, scalability, and adaptability.",
+      "co": "CO5",
+      "bl": "BL6",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "A domestic service robot is assigned to prepare a meal in the kitchen. Describe how the STRIPS representation can be used to define the initial state, goal state, and operators for this task. Explain how the robot can use this information to generate a valid plan for completing the meal preparation efficiently.",
+      "co": "CO5",
+      "bl": "BL6",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 10,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Analyze how probabilistic language models handle ambiguity in natural language communication. Illustrate your answer with various probabilistic approaches in AI-based text interpretation.",
+      "co": "CO6",
+      "bl": "BL6",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "Explain the difference between information retrieval and information extraction with suitable examples. Elaborate how these techniques are used in AI Chabot applications.",
+      "co": "CO6",
+      "bl": "BL6",
+      "modules": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E1",
+  "exam": "November 2024",
+  "course": "BCSE306L – Artificial Intelligence",
+  "slot": "E1+TE1",
+  "note": "Answer ALL questions (10 × 10 = 100 marks)",
+  "questions": [
+   {
+    "number": 1,
+    "parts": [
+     {
+      "label": "",
+      "text": "Explain the classifications of AI based on functionality and technology. Provide examples for each type.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "parts": [
+     {
+      "label": "",
+      "text": "Represent the following assertions using propositional logic: i. If Rahul has fever then Rahul has cough. ii. If Rahul has cough and fever then Rahul is fatigued. iii. If Rahul has headache and fatigue then Rahul has migraine. iv. If Rahul has migraine and fever then Rahul should not look at bright lights. v. If Rahul has cough and migraine then Rahul should rest. vi. Rahul has fever. vii. Rahul has headache. Prove: Rahul should rest using forward and backward chaining techniques.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "parts": [
+     {
+      "label": "",
+      "text": "Represent the following sentences in First-Order Logic (FOL). Use Resolution to infer the conclusion: i. Every member attends every event hosted by the club. ii. Anyone who misses an event is not an active member. iii. Anyone who volunteers at an event is an active member. iv. Anyone who registers for an event either attends it or misses it. v. Emma registers for an event. “Coding Hackathon” is an event. vi. Emma is a member. (Conclusion): Emma attends the event.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "parts": [
+     {
+      "label": "",
+      "text": "Write the naïve Bayesian classification algorithm and apply naïve Bayesian classification for the following dataset. Compute the conditional probabilities and predict the class for the new instance (A=0, B=1, C=0). Dataset (A, B, C, Class): 1: 0 0 0 +; 2: 0 0 1 −; 3: 0 1 1 −; 4: 0 1 1 −; 5: 0 0 1 +; 6: 1 0 1 +; 7: 1 0 1 −; 8: 1 0 1 −; 9: 1 1 1 +; 10: 1 0 1 +.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "parts": [
+     {
+      "label": "",
+      "text": "To prevent break-ins, Harry put a brand-new burglar alarm at his house. The alarm consistently reacts to a break-in, but it also reacts to little earthquakes. Harry has two neighbors David and Sophia, who have taken a responsibility to inform Harry at work when they hear the alarm. David always calls Harry when he hears the alarm, but sometimes he got confused with the phone ringing and calls at that time too. On the other hand, Sophia likes to listen to high music, so sometimes she misses to hear the alarm. Here compute the probability of Burglar Alarm. (i) Calculate the probability that alarm has sounded, but there is neither a burglary, nor an earthquake occurred, and David and Sophia both called the Harry. (ii) Calculate probability of burglary given alarm. Events in the Bayesian Network: Burglary (B), Earthquake (E), Alarm (A), David Calls (D), Sophia Calls (S). (Network and probability tables: see the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "parts": [
+     {
+      "label": "",
+      "text": "Formulate the STRIPS representation for the problem of planning a simple robot’s path to move a box from one room to another. Define the initial state, goal state, actions and the preconditions and effects for each action.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 7,
+    "parts": [
+     {
+      "label": "",
+      "text": "Explain how hierarchical task network (HTN) planning can be applied in non-deterministic domains. Provide examples to illustrate how HTN planning manages uncertainty and unpredictable outcomes.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 8,
+    "parts": [
+     {
+      "label": "",
+      "text": "Imagine you’re searching for information on a complex topic like “climate change”. Explain how search engines would identify pages that are most authoritative and informative pages on this topic without repetitive or irrelevant content with suitable example.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 9,
+    "parts": [
+     {
+      "label": "a",
+      "text": "(i) Apply greedy best first search on the following graph and find a path from the start node (S) to the goal node (E). (ii) Consider the following search problem, represented as a graph. The start state is S and the goal state is G. The heuristic values are given in the table below (S=10, A=8, B=5, C=5, D=4, E=2, G=0). Perform Uniform cost search on the graph. (Graphs and tables: see the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "Write the A* algorithm and perform it on the following graph to find the most cost-effective path to reach from start state S to final state G using A* Algorithm. The numbers written on edges represent the distance between the nodes. The numbers written inside the nodes represent the heuristic value. (Graph figure: see the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 10,
+    "parts": [
+     {
+      "label": "a",
+      "text": "Consider the game tree in which the static scores are from first player’s point of view. Suppose the first player is maximizing player. Applying mini-max search, show the backed-up values in the tree. What move will the MAX choose? If the nodes are expanded from left to right, what nodes would not be visited using alpha-beta pruning? Also explain limitations of Mini-Max search. How to overcome them? (Game tree figure: see the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "Explain the steps of alpha beta pruning. In the game tree below, use alpha-beta pruning to compute the minimax value assuming children are visited left to right. Show the alpha or beta values at each node and indicate which branches are pruned. Discuss the effectiveness of alpha beta pruning. (Game tree figure: see the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E2",
+  "exam": "November 2024",
+  "course": "BCSE306L – Artificial Intelligence",
+  "slot": "E2+TE2",
+  "note": "Answer ALL questions (10 × 10 = 100 marks)",
+  "questions": [
+   {
+    "number": 1,
+    "parts": [
+     {
+      "label": "",
+      "text": "Describe various AI environments (e.g., fully observable, partially observable, deterministic, stochastic, static, dynamic, discrete, continuous). How do these affect agent design and behaviour. Provide examples to explain the same.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "parts": [
+     {
+      "label": "",
+      "text": "Formulate the Towers of Hanoi problem with the given initial and goal states. The goal is to move all the disks to another peg, following these rules: I. Only one disk can be moved at a time. II. A disk can only be moved to a peg that is empty or has a larger disk on top. Draw the complete state space tree for this scenario. (Initial state: all disks on peg A. Goal state: all disks on peg C. See figure in the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "parts": [
+     {
+      "label": "",
+      "text": "You are given the state space shown in the figure, where A is the initial state, and F and I are goal states. The numbers on the edges indicate action costs. Explain how Depth First search and Breadth First search algorithm can be applied to find out the optimal path from initial state to the goal state for this problem. Discuss the advantages and disadvantages of these algorithms in this context. (Graph figure: see the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "parts": [
+     {
+      "label": "",
+      "text": "Explain how simulated annealing can address the plateau problem in hill climbing. Provide an example to illustrate this solution.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "parts": [
+     {
+      "label": "",
+      "text": "A manufacturing facility has a set of jobs to be processed on a set of machines. Each job has a specific processing time on each machine. The goal is to schedule the jobs on the machines in a way that minimizes the total completion time by using genetic algorithm. Consider that there are 4 jobs (A, B, C, D) and 2 machines (M1, M2). Jobs can be processed on any of the machines. For e.g., job A can be processed on either M1 or M2. Processing times (in mins), M1 / M2: A 3 / 5; B 2 / 4; C 4 / 2; D 5 / 3. [Hint to create the initial population: Chromosome 1: A(M1)B(M2)C(M1)D(M1). Fitness value of this is 3+4+4+5 = 16.]",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "parts": [
+     {
+      "label": "",
+      "text": "Consider a maze with the layout shown in the figure. Here the dot is the robot, G is the goal where the robot has to reach, white blocks are open and the shaded blocks are walls. The robot can move one step at a time. Compare and contrast forward search and backward search algorithms for solving this maze navigation problem. Write every step. Discuss the advantages and disadvantages of each approach. (Maze figure: see the original paper.)",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 7,
+    "parts": [
+     {
+      "label": "",
+      "text": "Consider a scenario where multiple autonomous robots are tasked with exploring an unknown environment and mapping its layout. Discuss the challenges and strategies involved in planning and coordinating the actions of these robots in a continuous environment.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 8,
+    "parts": [
+     {
+      "label": "",
+      "text": "Consider the problem of image retrieval in a large-scale database of images. Discuss at least 4 challenges involved in image retrieval, the different approaches that can be used to address these challenges. Write the factors that influence the effectiveness of image retrieval systems.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 9,
+    "parts": [
+     {
+      "label": "a",
+      "text": "(i) Write the logical representation of the following statements: 1. Every student who studies hard will pass the exam. 2. There exists a city such that all its residents are happy. 3. If it’s sunny and there’s no wind, then the picnic will be enjoyable. 4. There is a student who likes all math courses except for calculus. 5. Every dog has a bone, and every bone has a dog.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "(ii) Given the following propositional logic formula: (P ∧ Q) → (R → S). 1. Determine whether this sentence is valid, satisfiable (but not valid), or unsatisfiable. Justify your answer with laws used for inference. 2. Convert the given sentence into CNF, showing each step.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   },
+   {
+    "number": 10,
+    "parts": [
+     {
+      "label": "a",
+      "text": "A patient presents with symptoms of fever, cough, and fatigue. A doctor wants to diagnose whether the patient has influenza or a common cold. The doctor has prior knowledge about the prevalence of these diseases in the community and the probabilities of various symptoms given each disease. Consider: Influenza (I), Common Cold (C), Fever (F), Cough (Co), Fatigue (Fa). Edges: I → F, I → Co, I → Fa, C → F, C → Co, C → Fa. Probabilities: P(I) = 0.2, P(C) = 0.8, P(F|I) = 0.9, P(F|C) = 0.7, P(Co|I) = 0.8, P(Co|C) = 0.6, P(Fa|I) = 0.7, P(Fa|C) = 0.5. Given the patient’s symptoms (fever, cough, and fatigue), what is the probability that the patient has influenza? Solve using Bayes’ theorem.",
+      "co": "",
+      "bl": "",
+      "modules": []
+     },
+     {
+      "label": "b",
+      "text": "Consider the following scenario: Season → Sprinkler, Season → Rain, Sprinkler → Wet, Rain → Wet, Wet → Slippery. Domains: Season = {Dry, Rainy}, Sprinkler = {On, Off}, Rain = {Yes, No}, Wet = {Yes, No}, Slippery = {Yes, No}. Probabilities: P(Season = Dry) = 0.6; P(Sprinkler|Season=Dry) = 0.8; P(Sprinkler|Season=Rainy) = 0.2; P(Rain|Season=Dry) = 0.3; P(Rain|Season=Rainy) = 0.8; P(Wet|Rain=Yes,Sprinkler=On) = 0.8; P(Wet|Rain=No,Sprinkler=On) = 0.1; P(Wet|Rain=Yes,Sprinkler=Off) = 0.8; P(Wet|Rain=No,Sprinkler=Off) = 0.1; P(Slippery=Yes|Wet=Yes) = 0.8; P(Slippery=No|Wet=No) = 0.9. (i) What is the probability of slippery if the season is dry? (ii) What is the probability of wet if the ground is slippery?",
+      "co": "",
+      "bl": "",
+      "modules": []
+     }
+    ]
+   }
+  ]
+ }
+]

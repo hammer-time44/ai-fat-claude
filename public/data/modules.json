@@ -1,0 +1,244 @@
+[
+ {
+  "id": "m1",
+  "title": "Introduction",
+  "priority1": [
+   {
+    "topic": "PEAS Representation",
+    "importance": "Repeated in 3 papers",
+    "priority": "High"
+   },
+   {
+    "topic": "Environment Properties",
+    "importance": "Repeated in 3 papers",
+    "priority": "High"
+   }
+  ],
+  "priority2": [
+   {
+    "topic": "Types / Classification of AI",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   },
+   {
+    "topic": "AI Subfields and Applications",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Agent Architecture / Goal-Based Agents",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "m2",
+  "title": "Problem Solving Based on Searching",
+  "priority1": [
+   {
+    "topic": "Greedy Best First Search",
+    "importance": "Repeated in 4 papers",
+    "priority": "Very High"
+   },
+   {
+    "topic": "A* Search",
+    "importance": "Repeated in 4 papers",
+    "priority": "Very High"
+   },
+   {
+    "topic": "DFS",
+    "importance": "Repeated in 3 papers",
+    "priority": "High"
+   },
+   {
+    "topic": "Uniform Cost Search (UCS)",
+    "importance": "Repeated in 3 papers",
+    "priority": "High"
+   }
+  ],
+  "priority2": [
+   {
+    "topic": "BFS",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Iterative Deepening DFS",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Search Algorithm Comparison",
+    "importance": "Repeated in 2 papers",
+    "priority": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "m3",
+  "title": "Local Search and Adversarial Search",
+  "priority1": [
+   {
+    "topic": "Minimax Algorithm",
+    "importance": "Repeated in 4 papers",
+    "priority": "Very High"
+   },
+   {
+    "topic": "Alpha-Beta Pruning",
+    "importance": "Repeated in 4 papers",
+    "priority": "Very High"
+   }
+  ],
+  "priority2": [
+   {
+    "topic": "Hill Climbing",
+    "importance": "Repeated in 2 papers",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Simulated Annealing",
+    "importance": "Repeated in 2 papers",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Genetic Algorithm",
+    "importance": "Repeated in 2 papers",
+    "priority": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "m4",
+  "title": "Logic and Reasoning",
+  "priority1": [
+   {
+    "topic": "First Order Logic (FOL)",
+    "importance": "Repeated in 5 papers",
+    "priority": "Very High"
+   },
+   {
+    "topic": "Resolution",
+    "importance": "Repeated in 4 papers",
+    "priority": "Very High"
+   },
+   {
+    "topic": "Forward Chaining",
+    "importance": "Repeated in 3 papers",
+    "priority": "High"
+   },
+   {
+    "topic": "Propositional Logic",
+    "importance": "Repeated in 3 papers",
+    "priority": "High"
+   }
+  ],
+  "priority2": [
+   {
+    "topic": "Backward Chaining",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Unification",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "m5",
+  "title": "Uncertain Knowledge and Reasoning",
+  "priority1": [
+   {
+    "topic": "Bayes’ Theorem",
+    "importance": "Repeated in 3 papers",
+    "priority": "High"
+   },
+   {
+    "topic": "Bayesian Belief Networks",
+    "importance": "Repeated in 3 papers",
+    "priority": "High"
+   },
+   {
+    "topic": "Probability Laws / Conditional Probability",
+    "importance": "Repeated in 3 papers",
+    "priority": "High"
+   }
+  ],
+  "priority2": [
+   {
+    "topic": "Naive Bayes Classifier",
+    "importance": "Repeated in 2 papers",
+    "priority": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "m6",
+  "title": "Planning",
+  "priority1": [],
+  "priority2": [
+   {
+    "topic": "STRIPS Representation",
+    "importance": "Repeated in 2 papers",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Hierarchical Task Network (HTN)",
+    "importance": "Repeated in 2 papers",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Nondeterministic Planning",
+    "importance": "Repeated in 2 papers",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Blocks World",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Multiagent Planning",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   }
+  ],
+  "plain": true
+ },
+ {
+  "id": "m7",
+  "title": "Communicating, Perceiving and Acting",
+  "priority1": [],
+  "priority2": [
+   {
+    "topic": "Natural Language Processing (NLP)",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Information Retrieval / Image Retrieval",
+    "importance": "Repeated in 1 paper",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Information Extraction",
+    "importance": "No clear repeat yet*",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Image Formation",
+    "importance": "No clear repeat yet*",
+    "priority": "Medium"
+   },
+   {
+    "topic": "Object Recognition",
+    "importance": "No clear repeat yet*",
+    "priority": "Medium"
+   }
+  ],
+  "note": "*No clearly established repeat in the preliminary analysis; zero does not mean the topic is absent from the syllabus.",
+  "plain": true
+ }
+]
